@@ -20,7 +20,7 @@ public class Aplicacion {
 
             switch (opcion) {
                 case 0:
-                    // Lógica para Empleado Planta
+                   
                     String nombrePlanta = JOptionPane.showInputDialog("Nombre:");
                     String documentoPlanta = JOptionPane.showInputDialog("Documento:");
                     int edadPlanta = Integer.parseInt(JOptionPane.showInputDialog("Edad:"));
@@ -39,7 +39,7 @@ public class Aplicacion {
                     break;
 
                 case 1:
-                    // Lógica para Empleado Temporal
+                   
                     String nombreTemporal = JOptionPane.showInputDialog("Nombre:");
                     String documentotemporal = JOptionPane.showInputDialog("Documento:");
                     int edadTemporal = Integer.parseInt(JOptionPane.showInputDialog("Edad:"));
@@ -56,7 +56,7 @@ public class Aplicacion {
                     break;
 
                 case 2:
-                    // Lógica para Empleado Venta
+                   
                     String nombreVenta = JOptionPane.showInputDialog("Nombre:");
                     String documentoVenta = JOptionPane.showInputDialog("Documento:");
                     int edadVenta = Integer.parseInt(JOptionPane.showInputDialog("Edad:"));
